@@ -1,0 +1,41 @@
+// .big-title {
+//     background-color: #111;
+// }
+
+@import 
+    './scss/abstracts/mixins',
+    './scss/abstracts/variables';
+
+@import 
+    './scss/vendors/normalize';
+
+@import 
+    './scss/base/reset',
+    './scss/base/typography',
+    './scss/base/animations',
+    './scss/base/base';
+
+@import 
+    './scss/layout/top',
+    './scss/layout/header',
+    './scss/layout/main',
+    './scss/layout/footer';
+    
+@import 
+    './scss/components/brand',
+    './scss/components/local',
+    './scss/components/article',
+    './scss/components/cards',
+    './scss/components/menu-card',
+    './scss/components/buttons';
+    
+@import 
+    './scss/pages/autre',
+    './scss/pages/home';
+
+@import 
+    './scss/Themes/darktheme';
+
+@import 
+
+    './scss/shame';

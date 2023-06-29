@@ -1,0 +1,22 @@
+.btn {
+    margin: 2rem auto;
+    background-image: $gradient;
+    padding: $P-btn;
+    color: $white;
+    font-size: $fs-large;
+    border-radius: $B-Radius;
+}
+
+.btn:hover {
+    background-image: $gradientHover;
+    color: $white;
+}
+
+.autre .btn1 {
+    width: 18.6rem;
+   margin-top: 5rem;
+   
+   @include respond(tab-port) {
+       margin-top: 10rem;
+   }
+}

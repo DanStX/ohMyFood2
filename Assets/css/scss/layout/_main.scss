@@ -1,0 +1,73 @@
+.main {
+
+    @include respond(tab-port) {
+        & .fonction {
+            height: 25vh;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            margin-bottom: 5rem;
+            & h2 {
+                width: 100%;  
+            }
+
+            & .article {
+                width: 30%;
+                
+            }
+            & .article1 {
+                margin-left: 10rem;   
+            } 
+        }
+        & .resto {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            & h2 {
+                width: 100%;   
+            }   
+        }
+    }
+    @include respond(desktop) {
+        background-color: $white;
+        text-align: center;
+    }
+}
+
+.autre .main {
+    background-color: $white;
+    margin: -5rem auto 5rem auto;
+    text-align: center;
+    
+    .main__title {
+        width: 100%;
+        @include flexRow2;
+        font-family: $ff-title;
+        padding: 0 2rem 0 1rem;
+        justify-content: space-between;
+        text-align: left;
+        
+    }
+    
+    @include respond(tab-port) {
+        & {
+            width: 55vw;
+            background-color: $gris3;
+            
+            &__title {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            } 
+        }
+        margin: -5rem auto 5rem auto;
+    }
+    
+    @include respond(big-desktop) {
+        margin: -5rem auto 5rem auto;
+        & {
+            width: 60vw;
+        }  
+    }
+}
+

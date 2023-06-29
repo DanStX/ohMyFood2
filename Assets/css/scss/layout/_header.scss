@@ -1,0 +1,44 @@
+.header {
+    @include flexColumn1;
+    height: 50vh;
+    padding: 3rem 0;
+
+    &__title {
+        line-height: 1.2;
+        margin-bottom: 1rem;
+
+       &-span {
+           font-weight: $fw-bolder;
+           font-size: $fs-title;
+           display: block;
+           width: 100%;
+       }
+    }
+
+    &__para {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+        
+        &-span {  
+            display: block;
+        }
+    }
+}
+
+// .autre .header {
+//     height: 40vh;
+// }
+
+// .un {
+//     background-image: url("/Assets/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+// }
+// .deux {
+//     background-image: url("/Assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+// }
+// .trois {
+//     background-image: url("/Assets/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+// }
+// .quatre {
+//     background-image: url("/Assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+// }

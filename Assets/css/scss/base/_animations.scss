@@ -1,0 +1,68 @@
+// Loader
+@keyframes flash {
+    0% {
+     color: $color-first;
+     text-shadow: 0 0 7px $color-first;
+ } 
+ 
+ 90% {
+     color: $bgcolor;
+     text-shadow: none;
+ }
+ 100% {
+        color: $color-first;
+        text-shadow: 0 0 7px $color-first;
+    }
+ }
+ 
+//   disparition du Loader 
+ @keyframes disparait {
+    to {
+     transform: scale(0);
+     border-radius: 10rem;
+    } 
+ }
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

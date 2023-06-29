@@ -1,0 +1,79 @@
+// Colors
+$gris:#EAEAEA;
+$blue: #89C8FA;
+$white: #fff;
+$gris2: #F7F7F7;
+$gris3: #D2D2D2;
+
+$bg-first: rgb(243, 242, 242);
+$bg-first2: #EAEAEA;
+$bg-first3: rgb(102, 11, 11);
+$bg-icon: #F7F7F7;
+$bgcolor: $gris2;
+$bgFooter: #353535;
+
+$bleuFoncer: #003A68;
+$color-text: #000;
+$color-first: #FF79DA;
+$color-second: #99E2D0;
+$color-quatre:  #008766;
+$color-cinq:  $blue;
+$color-tertiaire: #9356DC;
+
+$shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+$shadow1: 0px 4px 15px rgba(0, 0, 0, 0.35);
+
+$gradient: linear-gradient(to right bottom, #FF79DA,#9356DC);
+$gradientHover:  linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);;
+
+// Position
+$top: calc(50% - 34.2px/2 - 0.9px);
+$left: calc(50% - 200px/2 - 1px);
+
+// Font family
+$ff-text: 'Roboto', serif, sans-serif;
+$ff-title: 'Shrikhand', cursive, serif, sans-serif;
+
+// Font Weight 
+$fw-small: 100;
+$fw-medium: 400;
+$fw-bold: 700;
+$fw-bolder: 900;
+
+// Font-size
+$fs-brand: 3rem;
+$fs-title: 2.7rem;
+
+$fs-small: .8rem;
+$fs-default: 1rem;
+$fs-medium: 1.2rem;
+$fs-large: 1.6rem;
+$fs-xlarge: 2rem;
+
+// Responsive 
+$res: calc(0.01 * 10vmin);
+$textResponsive: calc(64 * $res);
+$clamp: clamp(35px, 5vw, 70px);
+
+
+// Margin
+$M-small: 0.5rem;
+$M-small1: 0.5rem 0;
+$M-Medium: 1rem;
+$M-Medium1: 1rem 0;
+$M-Large: 2.5rem ;
+$M-Large1: 2.5rem 0;
+
+// Padding
+$P-btn: 1.5rem 3rem;
+
+$P-Small: 0.5rem;
+$P-Small1: 0.5rem 0;
+$P-Medium: 1rem;
+$P-Medium1: 1rem 0;
+$P-Large: 2.5rem;
+$P-Large1: 2.5rem 1rem;
+$P-xLarge: 1rem 3rem;
+
+// Border-Radius
+$B-Radius: 2.5rem;

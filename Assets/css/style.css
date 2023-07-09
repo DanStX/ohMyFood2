@@ -557,6 +557,10 @@ img {
   width: 100%;
 }
 
+.autre .top {
+  padding-top: 3rem;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -778,10 +782,60 @@ img {
   color: #9356DC;
 }
 
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  animation: disparait 600ms 2s forwards;
+}
+.loader__span {
+  color: #F7F7F7;
+  font-size: 2.3rem;
+  letter-spacing: 15px;
+  margin-bottom: 150px;
+  animation: flash 1.2s linear infinite;
+}
+.loader__span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.loader__span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loader__span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.loader__span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.loader__span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.loader__span:nth-child(6) {
+  animation-delay: 0.7s;
+}
+.loader__span:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.loader__span:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.loader__span:nth-child(9) {
+  animation-delay: 0.9s;
+}
+.loader__span:nth-child(10) {
+  animation-delay: 1s;
+}
+
 .card {
   position: relative;
-  height: 29rem;
-  width: 36rem;
+  width: 88vw;
+  height: 35vh;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
   margin: 5rem auto;
   border-radius: 2rem;
@@ -851,11 +905,24 @@ img {
 .card__info-para {
   font-size: 1.6rem;
 }
+@media only screen and (max-width: 47.5rem) {
+  .card {
+    width: 78vw;
+    height: 35vh;
+  }
+}
 @media only screen and (min-width: 56.25em) {
   .card {
     margin: 7rem auto;
     width: 38vw;
     height: 35vh;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .card {
+    margin: 7rem auto;
+    width: 40vw;
+    height: 45vh;
   }
 }
 
@@ -910,10 +977,8 @@ img {
 }
 .menu-card__validate-icon {
   margin: 3rem auto;
-  border: none;
   font-size: 2rem;
-  color: #99E2D0;
-  background-color: #fff;
+  color: white;
 }
 .menu-card:hover .menu-card__validate {
   margin-right: 0;
@@ -1029,22 +1094,22 @@ img {
   animation: moveInBottom 1s 3.5s forwards;
 }
 .autre .un {
-  background-image: url("/Assets/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("../../Assets/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 .autre .deux {
-  background-image: url("/Assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-image: url("../../Assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 .autre .trois {
-  background-image: url("/Assets/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-image: url("../../Assets/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 .autre .quatre {
-  background-image: url("/Assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-image: url("../../Assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -13,11 +13,12 @@
     overflow: hidden;
 
     &__info {
-        width: 95%;
+        width: 85%;
 
         &-title {
             font-size: 1.8rem;
             overflow: hidden;
+
             white-space: nowrap;
             text-overflow: ellipsis;
         }
@@ -26,13 +27,15 @@
             display: flex;
             justify-content: space-between;
             align-content: center;
-            overflow: hidden;
             white-space: nowrap;
+            overflow: hidden;
             text-overflow: ellipsis;
 
             &-ingre {
                 font-size: 1.4rem;
-                width: 100%;
+                width: 80%;
+                white-space: nowrap;
+                overflow: hidden;
                 text-overflow: ellipsis;
             }
 
@@ -44,7 +47,7 @@
     }
 
     &__validate {
-        margin-right: -15rem;
+        margin-right: -20rem;
         margin-left: 1rem;
         width: 20%;
         height: 100%;

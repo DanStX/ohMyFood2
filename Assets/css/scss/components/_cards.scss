@@ -1,10 +1,8 @@
 
 .card {
     position: relative;
-    // height: 29rem;
-    // width: 29rem;
-    width: 88vw;
-    height: 35vh;
+    width: 90vw;
+    height: 47vh;
     box-shadow: $shadow1;
     margin: 5rem auto;
     border-radius: 2rem;
@@ -62,8 +60,9 @@
 
     @include respond(phone2){
 
-        width: 78vw;
-        height: 35vh;
+        margin: 7rem auto;
+        width: 88vw;
+        height: 40vh;
     }
 
     @include respond(tab-port) {

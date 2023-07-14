@@ -509,6 +509,8 @@ img {
   max-width: 100%;
   width: auto;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .top, .header {
@@ -750,9 +752,10 @@ img {
 }
 .article__numb {
   z-index: 5;
-  padding: 1rem;
-  font-size: 1.5rem;
+  width: 40px;
   color: white;
+  font-size: 1.5rem;
+  padding: 0.8rem;
   border-radius: 50%;
   margin-right: -1.8rem;
   border: 1px solid rgb(243, 242, 242);
@@ -836,8 +839,8 @@ img {
 
 .card {
   position: relative;
-  width: 88vw;
-  height: 35vh;
+  width: 90vw;
+  height: 47vh;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
   margin: 5rem auto;
   border-radius: 2rem;
@@ -909,8 +912,9 @@ img {
 }
 @media only screen and (max-width: 47.5rem) {
   .card {
-    width: 78vw;
-    height: 35vh;
+    margin: 7rem auto;
+    width: 88vw;
+    height: 40vh;
   }
 }
 @media only screen and (min-width: 56.25em) {
@@ -943,7 +947,7 @@ img {
   overflow: hidden;
 }
 .menu-card__info {
-  width: 95%;
+  width: 85%;
 }
 .menu-card__info-title {
   font-size: 1.8rem;
@@ -955,13 +959,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  overflow: hidden;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .menu-card__info--para-ingre {
   font-size: 1.4rem;
-  width: 100%;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .menu-card__info--para-price {
@@ -969,7 +975,7 @@ img {
   font-weight: 700;
 }
 .menu-card__validate {
-  margin-right: -15rem;
+  margin-right: -20rem;
   margin-left: 1rem;
   width: 20%;
   height: 100%;

@@ -8,8 +8,8 @@
 
 
 ## Screenshots
- ![App Screenshot ](./Docs/ohMyFood.png/)https://danstx.github.io/ohMyFood2/
+ ![App Screenshot ](./Docs/ohMyFood.png/)
  
 
 ## Demo
-[https://danstx.github.io/ohMyFood2]
+[https://danstx.github.io/ohMyFood2]https://danstx.github.io/ohMyFood2/

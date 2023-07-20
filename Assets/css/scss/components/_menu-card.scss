@@ -18,7 +18,6 @@
         &-title {
             font-size: 1.8rem;
             overflow: hidden;
-
             white-space: nowrap;
             text-overflow: ellipsis;
         }
@@ -54,7 +53,7 @@
         background-color: $color-second;
         border-radius: 0 15.0431px 15.0431px 0;
         text-align: center;
-
+        transition: 1.5s;
         &-icon {
             margin: 3rem auto;
             font-size: $fs-xlarge;
@@ -65,12 +64,17 @@
 
     &:hover &__validate {
         margin-right: 0;
-        transition: 1.5s;
+        transition: 1.5s ;
+        
 
         &-icon {
             transform: rotate(360deg);
             transition: 2.5s;
         }
+    }
+
+    @include respond(tab-port) {
+        background-color: white;
     }
 
     @include respond(tab) {

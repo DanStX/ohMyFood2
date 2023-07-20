@@ -60,11 +60,12 @@
                 justify-content: center;
             } 
         }
-        margin: -5rem auto 5rem auto;
+        margin: -5rem auto 0 auto;
+        // padding-bottom: 10rem;
     }
     
     @include respond(big-desktop) {
-        margin: -5rem auto 5rem auto;
+        margin: -5rem auto 0 auto;
         & {
             width: 60vw;
         }  

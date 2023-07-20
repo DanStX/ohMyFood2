@@ -641,7 +641,7 @@ img {
 }
 @media only screen and (min-width: 56.25em) {
   .autre .main {
-    margin: -5rem auto 5rem auto;
+    margin: -5rem auto 0 auto;
   }
   .autre .main {
     width: 55vw;
@@ -655,7 +655,7 @@ img {
 }
 @media only screen and (min-width: 112.5em) {
   .autre .main {
-    margin: -5rem auto 5rem auto;
+    margin: -5rem auto 0 auto;
   }
   .autre .main {
     width: 60vw;
@@ -709,12 +709,6 @@ img {
   }
 }
 
-@media only screen and (min-width: 56.25em) {
-  .autre .footer {
-    margin-top: 10rem;
-  }
-}
-
 .brand {
   height: 6.3rem;
   padding: 1rem 0;
@@ -753,7 +747,11 @@ img {
 .article__numb {
   z-index: 5;
   width: 40px;
+  height: 40px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   padding: 0.8rem;
   border-radius: 50%;
@@ -982,6 +980,7 @@ img {
   background-color: #99E2D0;
   border-radius: 0 15.0431px 15.0431px 0;
   text-align: center;
+  transition: 1.5s;
 }
 .menu-card__validate-icon {
   margin: 3rem auto;
@@ -995,6 +994,11 @@ img {
 .menu-card:hover .menu-card__validate-icon {
   transform: rotate(360deg);
   transition: 2.5s;
+}
+@media only screen and (min-width: 56.25em) {
+  .menu-card {
+    background-color: white;
+  }
 }
 @media only screen and (min-width: 66.25em) {
   .menu-card__validate {
@@ -1122,8 +1126,12 @@ img {
   background-position: center;
 }
 @media only screen and (min-width: 56.25em) {
+  .autre .main {
+    background-color: #F7F7F7;
+  }
   .autre .main .conteneur {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 75em) {

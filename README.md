@@ -12,4 +12,4 @@
  
 
 ## Demo
-https://danstx.github.io/ohMyFood2/pages/leDessert.html
+https://danstx.github.io/ohMyFood2

@@ -12,6 +12,4 @@
  
 
 ## Demo
-Insert gif or link to demo
-
 https://danstx.github.io/ohMyFood2/pages/leDessert.html
